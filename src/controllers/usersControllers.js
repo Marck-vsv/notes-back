@@ -64,7 +64,7 @@ class usersController {
       name = ?,
       email = ?,
       password = ?,
-      updated_at = DATETIME(now)
+      updated_at = CURRENT_TIMESTAMP
       WHERE id = ?`,
       [user.name, user.email, user.password, user.id]
     );
