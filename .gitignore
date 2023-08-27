@@ -1,2 +1,6 @@
 ﻿node_modules
 src/database/database.db
+*.jpg
+*.jpeg
+*.png
+*.gif
